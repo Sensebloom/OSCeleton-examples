@@ -1,4 +1,4 @@
-OSCeleton
+OSCeleton-examples
 =========
 
 What is this?
