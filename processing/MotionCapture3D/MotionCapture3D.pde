@@ -11,7 +11,7 @@ Hashtable<Integer, Skeleton> skels = new Hashtable<Integer, Skeleton>();
 
 
 void setup() {
-    size(screen.height*4/3, screen.height, OPENGL); //Keep 4/3 aspect ratio, since it matches the kinect's.
+    size(screen.height*4/3/2, screen.height/2, OPENGL); //Keep 4/3 aspect ratio, since it matches the kinect's.
     oscP5 = new OscP5(this, "127.0.0.1", 7110);
     hint(ENABLE_OPENGL_4X_SMOOTH);
     noStroke();
@@ -23,6 +23,8 @@ void setup() {
 // Here you can easily see the format of the OSC messages sent. For each user, the joints are named with 
 // the joint named followed by user ID (head0, neck0 .... r_foot0; head1, neck1.....)
 void oscEvent(OscMessage msg) {
+  msg.print();
+  
   if (msg.checkAddrPattern("/joint") && msg.checkTypetag("sifff")) {
     // We have received joint coordinates, let's find out which skeleton/joint and save the values ;)
     Integer id = msg.get(1).intValue();

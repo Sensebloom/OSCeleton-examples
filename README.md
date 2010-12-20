@@ -4,28 +4,28 @@ OSCeleton-examples
 What is this?
 -------------
 
-Just a couple of simple demos we created in processing to demonstrate how
+Just a few simple demos we created  to demonstrate how
 to use [OSCeleton](https://github.com/Sensebloom/OSCeleton).
+We have 2 processing sketches and 1 animata skeleton animation.
 
 
 How do I use it?
 ----------------
 
-You first need to install avin's hacked Primesense PSDK driver for kinect:
+Go get [OSCeleton](https://github.com/Sensebloom/OSCeleton), follow
+the instructions there and run the OSCeleton executable.
 
-[https://github.com/avin2/SensorKinect](https://github.com/avin2/SensorKinect)
+For the processing examples you need to get and install the
+[OscP5 library](http://www.sojamo.de/libraries/oscP5/).
 
-Folow his instructions for installing the OpenNI framwork, the driver, and the NITE middleware.
-
-Then go get [OSCeleton](https://github.com/Sensebloom/OSCeleton) and
-run the executable.
-
-For both examples you need to get and install the [OscP5 library](http://www.sojamo.de/libraries/oscP5/).
-
-For the stickmanetic example you additionally need to get and install
+For the stickmanetic processing sketch you additionally need to get
+and install
 [pbox2d](http://code.google.com/p/pbox2d/).
 
 Run the skecthes ;)
+
+We also have an animata demo. Run OSCeleton with the options you see
+in the .bat file, open the animata animation and have fun!
 
 
 OSC Message format
