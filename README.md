@@ -40,7 +40,7 @@ and check the following method on the processing sketches:
 Other
 -----
 
-### Death threats and other stuff can be sent to:
-<info@sensebloom.com>
+### For death threats and other stuff, come join the fun in our [google
+group](http://groups.google.com/group/osceleton)!
 
 Have fun!
