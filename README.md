@@ -22,7 +22,7 @@ For the stickmanetic processing sketch you additionally need to get
 and install
 [pbox2d](http://code.google.com/p/pbox2d/).
 
-Run the skecthes ;)
+Run the sketches ;)
 
 We also have an animata demo. Run OSCeleton with the options you see
 in the .bat file, open the animata animation and have fun!
